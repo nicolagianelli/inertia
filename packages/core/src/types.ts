@@ -560,6 +560,7 @@ export interface LinkComponentBaseProps extends Partial<
     | 'preserveScroll'
     | 'preserveState'
     | 'preserveUrl'
+    | 'showProgress'
     | 'only'
     | 'except'
     | 'headers'

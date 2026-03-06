@@ -161,6 +161,7 @@ function link(
       preserveScroll: params.preserveScroll || false,
       preserveState: params.preserveState ?? method !== 'get',
       preserveUrl: params.preserveUrl || false,
+      showProgress: params.showProgress || true,
       only: params.only || [],
       except: params.except || [],
       headers: params.headers || {},
